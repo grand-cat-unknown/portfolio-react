@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React Now!
+          Auto Deploy works!! :D 
         </a>
       </header>
     </div>
