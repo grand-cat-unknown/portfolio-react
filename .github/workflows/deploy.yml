@@ -20,4 +20,6 @@ jobs:
         git config --local user.email "srikanth.ganta13@gmail.com"
         git config --local user.name "grand-cat-unknown"
     - name: Run Deploy Script
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: npm run deploy
